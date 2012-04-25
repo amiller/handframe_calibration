@@ -11,18 +11,21 @@ a kinect depth image is assumed to be handled externally.
 <img src="http://i.imgur.com/66kbN.png"/>
 
 Legend:
-    Yellow: User's eye
-    Cyan: User's finger tips
-    Purple: Target points with known coordinates
-    Thin coordinate axes: actual camera pose
-    Thick coordinate axes: estimated camera pose
+-  Yellow: User's eye
+-  Cyan: User's finger tips
+-  Purple: Target points with known coordinates
+-  Thin coordinate axes: actual camera pose
+-  Thick coordinate axes: estimated camera pose
 
 Requirements:
-    github.com/amiller/wxpy3d
-    OpenCV 2.1+ or so
+
+- github.com/amiller/wxpy3d
+- OpenCV 2.1+ or so
 
 Usage:
+
     $ ipython --pylab=wx
     In [1]: run -i demo_handframe_calibration.py
 
     # Press 'R' to re-randomize the eye and camera positions
+    # Use the mouse to control the 
